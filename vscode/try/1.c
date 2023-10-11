@@ -10,8 +10,7 @@ int main(void)
     length=strlen(string);
     for (int i=0;i<=length;i++)
     {
-        printf("%c",*p);
-        p++;
+        printf("%c",*(p+length-i));
     }
     return 0;
 }
